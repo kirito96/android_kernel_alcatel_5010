@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/video/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/misc/mediatek/video/built-in.o drivers/misc/mediatek/video/mt6580/built-in.o drivers/misc/mediatek/video/common/built-in.o 

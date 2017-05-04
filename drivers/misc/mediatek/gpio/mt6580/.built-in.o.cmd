@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/gpio/mt6580/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/misc/mediatek/gpio/mt6580/built-in.o drivers/misc/mediatek/gpio/mt6580/mt_gpio_base.o drivers/misc/mediatek/gpio/mt6580/mt_gpio_affix.o drivers/misc/mediatek/gpio/mt6580/mt_gpio_debug.o drivers/misc/mediatek/gpio/mt6580/mt_gpio_ext.o drivers/misc/mediatek/gpio/mt6580/mt_gpio_base_linux.o 
