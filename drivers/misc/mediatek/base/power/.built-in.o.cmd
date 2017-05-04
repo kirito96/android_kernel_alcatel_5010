@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/misc/mediatek/base/power/built-in.o drivers/misc/mediatek/base/power/mt6580/built-in.o drivers/misc/mediatek/base/power/spm_v1/built-in.o drivers/misc/mediatek/base/power/cpuidle_v1/built-in.o 

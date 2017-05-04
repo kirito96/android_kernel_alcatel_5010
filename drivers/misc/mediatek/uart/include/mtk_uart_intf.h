@@ -1,7 +1,7 @@
 #ifndef __MTK_UART_INTF_H__
 #define __MTK_UART_INTF_H__
 
-#include "platform_uart.h"
+#include "../mt6580/platform_uart.h"
 #include <linux/platform_device.h>
 /*---------------------------------------------------------------------------*/
 /* fiq debugger */

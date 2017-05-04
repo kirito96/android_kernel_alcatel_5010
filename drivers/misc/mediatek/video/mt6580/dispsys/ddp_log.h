@@ -6,7 +6,7 @@
 
 #include "display_recorder.h"
 #include "ddp_debug.h"
-#include "debug.h"
+#include "../videox/debug.h"
 #ifndef LOG_TAG
 #define LOG_TAG
 #endif

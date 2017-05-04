@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/video/common/corr10/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/misc/mediatek/video/common/corr10/built-in.o drivers/misc/mediatek/video/common/corr10/ddp_dither.o drivers/misc/mediatek/video/common/corr10/ddp_gamma.o 
