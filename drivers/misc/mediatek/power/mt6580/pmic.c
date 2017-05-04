@@ -92,8 +92,8 @@
 #endif
 /* #include <mach/upmu_common.h> */
 #include <mt-plat/upmu_common.h>
-#include "pmic.h"
-#include "pmic_dvt.h"
+#include <pmic.h>
+#include <pmic_dvt.h>
 
 /*
  * PMIC extern variable

@@ -5,7 +5,7 @@
 #include <mach/mt_reg_base.h>
 #endif
 #include <mt-plat/sync_write.h>
-#include "../mt6580/platform_uart.h"
+#include "platform_uart.h"
 
 /*---------------------------------------------------------------------------*/
 #if defined(ENABLE_VFIFO_DEBUG)

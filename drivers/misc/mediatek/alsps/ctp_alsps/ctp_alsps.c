@@ -48,7 +48,7 @@
  *
  */
 
-#include "ctp_alsps.h"
+#include <ctp_alsps.h>
 #include <alsps.h>
 /******************************************************************************
  * configuration

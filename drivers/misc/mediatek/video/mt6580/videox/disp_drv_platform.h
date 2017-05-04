@@ -11,9 +11,9 @@
 /* #include <mach/mt_irq.h> */
 /* #include <mach/boot.h> */
 /* #include <board-custom.h> */
-#include "../dispsys/ddp_hal.h"
-#include "../dispsys/ddp_drv.h"
-#include "../dispsys/ddp_path.h"
+#include "ddp_hal.h"
+#include "ddp_drv.h"
+#include "ddp_path.h"
 
 #include <mt-plat/sync_write.h>
 

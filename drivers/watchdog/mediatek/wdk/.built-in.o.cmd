@@ -1,1 +1,0 @@
-cmd_drivers/watchdog/mediatek/wdk/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/watchdog/mediatek/wdk/built-in.o drivers/watchdog/mediatek/wdk/wd_common_drv.o drivers/watchdog/mediatek/wdk/wd_api.o 

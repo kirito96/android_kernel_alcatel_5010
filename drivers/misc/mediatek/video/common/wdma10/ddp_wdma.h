@@ -1,8 +1,8 @@
 #ifndef _DDP_WDMA_H_
 #define _DDP_WDMA_H_
 
-#include "../../mt6580/dispsys/ddp_hal.h"
-#include "../../mt6580/dispsys/ddp_info.h"
+#include "ddp_hal.h"
+#include "ddp_info.h"
 
 /* start module */
 int wdma_start(DISP_MODULE_ENUM module, void *handle);
