@@ -23,6 +23,7 @@
 #include <linux/kernel.h>
 #include <linux/kallsyms.h>
 
+#include <vibrator.h>
 #include <vibrator_hal.h>
 
 #define MAX_VIBR 7
