@@ -1,0 +1,25 @@
+language: C
+dist: trusty
+before_install:
+  - git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8 toolchain
+  - export CROSS_COMPILE=$PWD/toolchain/bin/arm-eabi-
+  - sudo apt-get -qq update
+  - sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2
+  - chmod +x travis.sh
+  - chmod +x $PWD/tools/dct/DrvGen
+
+# we're not installing anything
+install: true
+
+script:
+  - ./travis.sh
+
+deploy:
+  provider: releases
+  api_key: "$GIT_OAUTH_TOKEN_KIRITO92"
+  file: "$PWD/arch/arm/boot/zImage-dtb"
+  skip_cleanup: true
+  on:
+    tags: true
+all_branches: true
+
