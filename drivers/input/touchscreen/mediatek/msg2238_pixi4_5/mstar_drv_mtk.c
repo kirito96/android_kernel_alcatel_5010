@@ -373,7 +373,6 @@ static int tpd_local_init(void)
 {  
     int retval;
     
-    TPD_DMESG("TPD init device driver (Built %s @ %s)\n", __DATE__, __TIME__);
 
     tpd->reg = regulator_get(tpd->tpd_dev, "vtouch");
     retval = regulator_set_voltage(tpd->reg, 2800000, 2800000);
