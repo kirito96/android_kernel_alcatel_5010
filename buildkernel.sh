@@ -72,6 +72,7 @@ function make_kernel {
 
 function make_zip {
 		cd $REPACK_DIR
+		rm -rf .git
 		zip -9 -r `echo $BT_VER`.zip .
 		mv  `echo $BT_VER`.zip $REPACK_DIR
 		cd $KERNEL_DIR
